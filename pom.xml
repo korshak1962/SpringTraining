@@ -59,6 +59,14 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>${project.parent.version}</version>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.3.2</version>
+				<configuration>
+					<webappDirectory>c:\users\korsh\Downloads</webappDirectory>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
