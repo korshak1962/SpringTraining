@@ -1,8 +1,6 @@
-package com.example.intuit;
+package com.example.intuit.controllers;
 
-import com.example.intuit.dao.Item;
 import com.example.intuit.dao.Player;
-import com.example.intuit.services.ItemService;
 import com.example.intuit.services.PlayerService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

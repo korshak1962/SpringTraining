@@ -1,4 +1,4 @@
-package com.example.intuit;
+package com.example.intuit.controllers;
 
 import com.example.intuit.dao.Item;
 import com.example.intuit.services.ItemService;
@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
-import java.util.List;
 
 @RestController
 public class ItemController {
